@@ -30,10 +30,9 @@ const Navbar = () => {
         <a href="#top">
             <Image src= {assets.logo} className='w-28 cursor-pointer mr-14' alt=''/>
         </a>
-        <ul className='hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white shadow-sm bg-opacity-50'>
+        <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50"} `}>
             <li><a className='font-Ovo' href="#top">Home</a></li>
             <li><a className='font-Ovo' href="#about">About me</a></li>
-            <li><a className='font-Ovo' href="#services">Services</a></li>
             <li><a className='font-Ovo' href="#work">My Work</a></li>
             <li><a className='font-Ovo' href="#contact">Contact me</a></li>
         </ul>
