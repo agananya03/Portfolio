@@ -9,7 +9,7 @@ const Work = () => {
         My Portfolio
       </h4>
       <h2 className='text-center text-5xl font-Ovo'>
-        Proof of Work
+        Proof of work
       </h2>
       <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo'>
         Welcome to my Web development Portfolio! Explore a collection of projects showcasing my expertise.
