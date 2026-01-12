@@ -23,6 +23,8 @@ export default {
             gridTemplateColumns: {
                 'auto': 'repeat(auto-fit, mimax(200px, 1fr))'
             }
-        }
-    }
+        },
+    },
+    darkMode: 'selector',
+    plugins: [],
 }
