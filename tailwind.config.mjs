@@ -4,7 +4,7 @@ export default {
         "./pages/**/*.{js,ts,jsx,mdx}",
         "./components/**/*.{js,ts,jsx,tsx,mdx}",
         "./app/**/*.{js,ts,jsx,tsx,mdx}",
-    ], 
+    ],
     theme: {
         extend: {
             colors: {
@@ -13,8 +13,8 @@ export default {
                 darkTheme: '#11011F',
             },
             fontFamily: {
-                Outfit: ["Outfit", "sans-serif"],
-                Ovo: ["Ovo", "serif"]
+                Outfit: ["var(--font-outfit)", "sans-serif"],
+                Ovo: ["var(--font-ovo)", "serif"]
             },
             boxShadow: {
                 'black': '4px 4px 0 #000',
